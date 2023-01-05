@@ -111,6 +111,14 @@ class Pet():
             return empty_ability
     
     
+    def set_health(self, health):
+        self.health = health
+        return
+
+    def set_attack(self, attack):
+        self.attack = attack
+        return
+    
     def set_ability(self, ability_dict):
         self.override_ability = True
         self.override_ability_dict = ability_dict
